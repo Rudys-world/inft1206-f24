@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
-  line-height: 32px;
+  line-height: 22px;
   letter-spacing: 1px;
   word-spacing: 0.7px;
 }
@@ -19,17 +19,39 @@ body {
 section {
   float: left;
   width: 50%;
+  padding: 20px;
   
 }
 
 aside {
   float: left;
   width: 30%;
+  padding: 20px;
+
 }
 
 nav {
-  float: left;
+  float: right;
   width: 20%;
+  padding: 0 10px;
+  margin: 0;
+
+}
+
+nav a {
+  display: block;
+  padding: 10px 10px;
+  background-color: #f9f9f9;
+  border: 2px solid #a66;
+  color: #663399;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+nav a:hover {
+  background-color: #eee;
+  border-color: #663399;
 }
 
 footer {
@@ -54,11 +76,13 @@ h1 {
   font-size: 3em;
   text-align: center;
   letter-spacing: 3px;  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 h2 {
     font-size: 3em;
     letter-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
   
 a:link {
@@ -67,6 +91,7 @@ a:link {
 }
 ul {
   list-style-type: circle;
+  margin-left: 20px;
 }
 a:visited {
   color:blue;
@@ -76,4 +101,26 @@ a:focus, a:hover {
   color:crimson;
   text-decoration: none;
   outline: none;
+}
+
+/* List Styling */
+
+ul, ol {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul li, ol li {
+  line-height: 1.6;
+}
+
+/* Vertical Navigation Menu */
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style: none;
+  margin: 10px 0;
+
 }
