@@ -1,3 +1,11 @@
+/*   Name: Rudy Fakih
+     Date: November 22, 2024
+     Class: Web Development Fundamentals
+     Description: In this part of the assignment, we are creating an 
+     image gallery, testing our use and skills of loops, functions 
+     and events.
+*/
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 

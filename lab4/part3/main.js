@@ -1,3 +1,10 @@
+/*   Name: Rudy Fakih
+     Date: November 22, 2024
+     Class: Web Development Fundamentals
+     Description: In this part of the assignment, we are creating a 
+     bouncing balls demo, showing useful objects are in JavaScript.
+*/
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");

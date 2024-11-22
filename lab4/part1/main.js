@@ -1,3 +1,10 @@
+/*   Name: Rudy Fakih
+     Date: November 22, 2024
+     Class: Web Development Fundamentals
+     Description: In this part of the assignment, we are required to generate 
+     silly stories using buttons and events.
+*/
+
 // 1. COMPLETE VARIABLE AND FUNCTION DEFINITIONS
 
 const customName = document.getElementById('customname');
