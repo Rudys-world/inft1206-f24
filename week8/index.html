@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 Demonstration</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Interactive HTML, CSS, JS, Demo</h1>
+
+        <!-- Input fields -->
+         <div class = "input-section">
+            <label for="nameInput">Enter your name:</label>
+            <input type="text" id="nameInput" placeholder="Your name">
+
+            <label for="ageInput">Enter your age:</label>
+            <input type="number" id="ageInput" placeholder="Your age">
+        </div>
+
+        <!-- Buttons -->
+         <div class = "button-section">
+            <button id ="displayBtn"> Display Message</button>
+            <button id ="resetBtn"> Reset</button>
+        </div>
+
+        <!-- Output Section (from JS to HTML)-->
+         <div class = "output-section">
+            <p id = "message" ></p>
+         </div>
+        <!-- Background Color Change Buttons (Changing the background color at the click of a button )-->
+        <div class = "color-buttons">
+            <button class = "color-btn" id = "blueBtn"> Blue </button>
+            <button class = "color-btn" id = "redBtn"> Red </button>
+            <button class = "color-btn" id = "greenBtn"> Green </button>
+
+        </div>
+
+
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
