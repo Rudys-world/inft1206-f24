@@ -1,3 +1,11 @@
+/*   Name: Rudy Fakih
+     Date: November 27, 2024
+     Class: Web Development Fundamentals
+     Description: This file handles functionality for the wildlife website. Things
+     like toggling the comment section and ensuring keyboard accessibility 
+     are all features in this file.
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
